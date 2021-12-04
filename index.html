@@ -1,3 +1,58 @@
-Coming soon!
+<html>
+	<title>De Kronieken van Phantasar - Coming soon</title>
+	<style>
+		body{
+			background-color: #0f0b00;
+			color: #ffb400;
+		}
+		.vertical-center {
+			margin: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%
+			-ms-transform: translateY(-50%);
+			transform: translateY(-50%); 
+		}
+	</style>
+	<body>
+		<div class="vertical-center" align=center>
+			<center>
+				<table width=100%>
+					<Caption>Coming Soon!</caption>
+					<tr>
+						<td><img src="https://user-images.githubusercontent.com/11202073/144707906-e22f2d6d-7794-40e4-b40c-7594fdbf29f3.png" alt="Scyndi"></td>
+						<td id="Time" align="Center">---</td>						
+					</tr>
+				</table>
+			</center>
+		</div>
+		<script language="JavaScript">
+			//let streefdatum = 1638616142631
+			let streefdatum   = Math.floor(1639825200)
+			console.log("Streef-datum: ",streefdatum, "Nu: ",Math.floor(Date.now()/1000))
+			function pasaan() {
+				let nu = Math.floor(Date.now()/1000)
+				let verschil = streefdatum - nu
+				if (verschil<0) window.location.href = "https://phantasarproductions.github.io/Kronieken/News_HomePage.html"
+				let seconds = verschil % 60
+				verschil = Math.floor(verschil/60)
+				let minutes = verschil % 60
+				verschil = Math.floor(verschil/60)
+				let hours = verschil % 24 
+				let days = Math.floor(verschil / 24)
+				let o = "Nog even wachten: "
+				//console.log(streefdatum,nu,verschil)
+				if (days>1) o+=days+" dagen; "; else if (days==1) o+="1 dag; "
+				if (hours>0) o+= hours+"h";
+				if (minutes>0) o+= minutes+"'";
+				if (seconds>0) o+= seconds+"\"";
+				//if (days>0) o+=" (ongeveer "+days+" more dag(en))";
+				Time.innerHTML=o;					
+			}
+			pasaan()
+			setInterval(pasaan, 500);
+			console.log("Timer started!")
 
-De Kronieken van Phantasar
+		</script>
+	</body>
+</html>
