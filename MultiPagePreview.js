@@ -5,7 +5,9 @@ function Show(T) { document.getElementById("PChapter_"+T).style.visibility="visi
 */
 
 function Show(T) { 
-	for (let item of Tabel) if (item["ID"]==T)	document.getElementById("PrevContent").innerHTML = item["Content"] }
+	console.log("Showing: ",T);
+	for (let item of Tabel) if (item["ID"]==T)	document.getElementById("PrevContent").innerHTML = item["Content"] 
+}
 function Start(_Tabel) {
 	console.log("Initiating!")
 	//for (let item of _Tabel) {
