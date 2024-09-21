@@ -30,9 +30,9 @@
 	  <!--- Wiki: Phantasar; Page: Sonya; Langauge Dutch -->
 
 <div style="float:right;" width="20%"><table><tr><td colspan=2>Sonya</td></tr>
-	<tr valign=top><td style="text-align:right">Full Name:</td><td id="WIKI_FID_AAA_FULLNAME">Sonya, docher van Bleehd</td></tr>
-	<tr valign=top><td style="text-align:right">Phantasar Name:</td><td id="WIKI_FID_AAA_PHANNAME">S&ocirc;ny&acirc;, Fyl&acirc; d&acirc;r Blehd</td></tr>
-	<tr valign=top><td style="text-align:right">Ras:</td><td id="WIKI_FID_AAB_RACE">Mens, later Fee</td></tr>
+	<tr valign=top><td style="text-align:right">Full Name:</td><td><span id="WIKI_FID_AAA_FULLNAME">Sonya, docher van Bleehd</span></td></tr>
+	<tr valign=top><td style="text-align:right">Phantasar Name:</td><td><span id="WIKI_FID_AAA_PHANNAME">S&ocirc;ny&acirc;, Fyl&acirc; d&acirc;r Blehd</span></td></tr>
+	<tr valign=top><td style="text-align:right">Ras:</td><td><span id="WIKI_FID_AAB_RACE">Mens, later Fee</span></td></tr>
 </table></div>
 
 <h1>Sonya, dochter van Bleehd</h1>
@@ -57,7 +57,25 @@ Hoewel Sonya een jong volwassen vrouw (zelfs meerderjarig) heeft ze haar kindert
 </ul></p>
 
 
-<br /><br /><br /><br /><small>Last updated on Saturday, May 18, 2024; 8:52:44 PM by Jeroen</small><br/><a href="WikiIndex_Phantasar_NL.html">Index</a>
+<br /><br /><br /><br /><small>Last updated on Saturday, September 21, 2024; 10:39:18 PM by Jeroen</small><br/><a href="WikiIndex_Phantasar_NL.html">Index</a>
+<script language="JavaScript">
+// AAC_GENDER
+
+let WIKI_AAC_GENDER = "F";
+// Sex
+{
+	let Sex = WIKI_AAC_GENDER.toUpperCase();
+	let Sex1 = Sex.slice(0, 1);
+	let Cnt = document.getElementById("WIKI_FID_AAB_RACE")
+	console.log(Cnt);
+	console.log("Rac: "+Cnt.innerHTML+"\n");	
+	Cnt.innerHTML+=" <img src=\"pic/Sex_"+Sex1+".png\" height=\"12pt\" style=\"border:0; float: right;\"/>";
+	console.log("Sex: "+Sex1+" -> "+Cnt.innerHTML+"\n");
+}
+
+
+</script>
+
   </div>
 </div>
 <div id="footer">

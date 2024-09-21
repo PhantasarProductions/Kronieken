@@ -30,8 +30,8 @@
 	  <!--- Wiki: Phantasar; Page: Mercedes; Langauge Dutch -->
 
 <div style="float:right;" width="20%"><table><tr><td colspan=2>Mercedes</td></tr>
-	<tr valign=top><td style="text-align:right">Phantasar Name:</td><td id="WIKI_FID_AAA_PHANNAME">M&ecirc;rsed's</td></tr>
-	<tr valign=top><td style="text-align:right">Ras:</td><td id="WIKI_FID_AAB_RACE">Befindo</td></tr>
+	<tr valign=top><td style="text-align:right">Phantasar Name:</td><td><span id="WIKI_FID_AAA_PHANNAME">M&ecirc;rsed's</span></td></tr>
+	<tr valign=top><td style="text-align:right">Ras:</td><td><span id="WIKI_FID_AAB_RACE">Befindo</span></td></tr>
 </table></div>
 
 <h1>Mercedes</h1>
@@ -55,7 +55,25 @@ Nu valt er ook wel wat te zeggen voor het misselijkmakende gedrag van Kara Irana
 </p>
 
 
-<br /><br /><br /><br /><small>Last updated on Tuesday, May 28, 2024; 4:39:41 PM by Jeroen</small><br/><a href="WikiIndex_Phantasar_NL.html">Index</a>
+<br /><br /><br /><br /><small>Last updated on Saturday, September 21, 2024; 10:36:57 PM by Jeroen</small><br/><a href="WikiIndex_Phantasar_NL.html">Index</a>
+<script language="JavaScript">
+// AAC_GENDER
+
+let WIKI_AAC_GENDER = "F";
+// Sex
+{
+	let Sex = WIKI_AAC_GENDER.toUpperCase();
+	let Sex1 = Sex.slice(0, 1);
+	let Cnt = document.getElementById("WIKI_FID_AAB_RACE")
+	console.log(Cnt);
+	console.log("Rac: "+Cnt.innerHTML+"\n");	
+	Cnt.innerHTML+=" <img src=\"pic/Sex_"+Sex1+".png\" height=\"12pt\" style=\"border:0; float: right;\"/>";
+	console.log("Sex: "+Sex1+" -> "+Cnt.innerHTML+"\n");
+}
+
+
+</script>
+
   </div>
 </div>
 <div id="footer">

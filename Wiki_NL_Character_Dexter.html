@@ -30,10 +30,10 @@
 	  <!--- Wiki: Phantasar; Page: Dexter; Langauge Dutch -->
 
 <div style="float:right;" width="20%"><table><tr><td colspan=2>Dexter</td></tr>
-	<tr valign=top><td style="text-align:right">Full Name:</td><td id="WIKI_FID_AAA_FULLNAME">Dexter</td></tr>
-	<tr valign=top><td style="text-align:right">Phantasar Name:</td><td id="WIKI_FID_AAA_PHANNAME">D&ecirc;kst'r</td></tr>
-	<tr valign=top><td style="text-align:right">Ras:</td><td id="WIKI_FID_AAB_RACE">Valkparkiet</td></tr>
-	<tr valign=top><td style="text-align:right">Geboorteplaats:</td><td id="WIKI_FID_AAC_PLACEBIRTH">Independence. Delisto</td></tr>
+	<tr valign=top><td style="text-align:right">Full Name:</td><td><span id="WIKI_FID_AAA_FULLNAME">Dexter</span></td></tr>
+	<tr valign=top><td style="text-align:right">Phantasar Name:</td><td><span id="WIKI_FID_AAA_PHANNAME">D&ecirc;kst'r</span></td></tr>
+	<tr valign=top><td style="text-align:right">Ras:</td><td><span id="WIKI_FID_AAB_RACE">Valkparkiet</span></td></tr>
+	<tr valign=top><td style="text-align:right">Geboorteplaats:</td><td><span id="WIKI_FID_AAC_PLACEBIRTH">Independence. Delisto</span></td></tr>
 </table></div>
 
 <h1>Dexter</h1>
@@ -53,7 +53,25 @@ Daardoor heb ik het concept een beetje moeten aanpassen,
 nu was het Gwen die al voor Dexter zorgde vanaf dat hij net geen kuikentje meer was.
 
 
-<br /><br /><br /><br /><small>Last updated on Saturday, September 21, 2024; 9:20:55 PM by Jeroen</small><br/><a href="WikiIndex_Phantasar_NL.html">Index</a>
+<br /><br /><br /><br /><small>Last updated on Saturday, September 21, 2024; 10:33:47 PM by Jeroen</small><br/><a href="WikiIndex_Phantasar_NL.html">Index</a>
+<script language="JavaScript">
+// AAC_GENDER
+
+let WIKI_AAC_GENDER = "M";
+// Sex
+{
+	let Sex = WIKI_AAC_GENDER.toUpperCase();
+	let Sex1 = Sex.slice(0, 1);
+	let Cnt = document.getElementById("WIKI_FID_AAB_RACE")
+	console.log(Cnt);
+	console.log("Rac: "+Cnt.innerHTML+"\n");	
+	Cnt.innerHTML+=" <img src=\"pic/Sex_"+Sex1+".png\" height=\"12pt\" style=\"border:0; float: right;\"/>";
+	console.log("Sex: "+Sex1+" -> "+Cnt.innerHTML+"\n");
+}
+
+
+</script>
+
   </div>
 </div>
 <div id="footer">

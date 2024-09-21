@@ -30,9 +30,9 @@
 	  <!--- Wiki: Phantasar; Page: Suneau; Langauge Dutch -->
 
 <div style="float:right;" width="20%"><table><tr><td colspan=2>Suneau</td></tr>
-	<tr valign=top><td style="text-align:right">Full Name:</td><td id="WIKI_FID_AAA_FULLNAME">Suneau, heer van het huis van Kraaijensteijn</td></tr>
-	<tr valign=top><td style="text-align:right">Phantasar Name:</td><td id="WIKI_FID_AAA_PHANNAME">Suno</td></tr>
-	<tr valign=top><td style="text-align:right">Ras:</td><td id="WIKI_FID_AAB_RACE">Befindo</td></tr>
+	<tr valign=top><td style="text-align:right">Full Name:</td><td><span id="WIKI_FID_AAA_FULLNAME">Suneau, heer van het huis van Kraaijensteijn</span></td></tr>
+	<tr valign=top><td style="text-align:right">Phantasar Name:</td><td><span id="WIKI_FID_AAA_PHANNAME">Suno</span></td></tr>
+	<tr valign=top><td style="text-align:right">Ras:</td><td><span id="WIKI_FID_AAB_RACE">Befindo</span></td></tr>
 </table></div>
 
 <h1>Suneau, heer van het huis van Kraaijensteijn</h1>
@@ -56,7 +56,25 @@ Slyvina in de praktijk een levenspartner maken terwijl ze op papier een slavin w
 
 
 
-<br /><br /><br /><br /><small>Last updated on Saturday, February 3, 2024; 3:33:13 PM by Jeroen</small><br/><a href="WikiIndex_Phantasar_NL.html">Index</a>
+<br /><br /><br /><br /><small>Last updated on Saturday, September 21, 2024; 10:39:26 PM by Jeroen</small><br/><a href="WikiIndex_Phantasar_NL.html">Index</a>
+<script language="JavaScript">
+// AAC_GENDER
+
+let WIKI_AAC_GENDER = "M";
+// Sex
+{
+	let Sex = WIKI_AAC_GENDER.toUpperCase();
+	let Sex1 = Sex.slice(0, 1);
+	let Cnt = document.getElementById("WIKI_FID_AAB_RACE")
+	console.log(Cnt);
+	console.log("Rac: "+Cnt.innerHTML+"\n");	
+	Cnt.innerHTML+=" <img src=\"pic/Sex_"+Sex1+".png\" height=\"12pt\" style=\"border:0; float: right;\"/>";
+	console.log("Sex: "+Sex1+" -> "+Cnt.innerHTML+"\n");
+}
+
+
+</script>
+
   </div>
 </div>
 <div id="footer">

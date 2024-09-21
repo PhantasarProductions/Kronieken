@@ -30,10 +30,10 @@
 	  <!--- Wiki: Phantasar; Page: Whizzy; Langauge Dutch -->
 
 <div style="float:right;" width="20%"><table><tr><td colspan=2>Whizzy</td></tr>
-	<tr valign=top><td style="text-align:right">Full Name:</td><td id="WIKI_FID_AAA_FULLNAME">Whizzy, Twaalfde Elf van de Eerste Generatie</td></tr>
-	<tr valign=top><td style="text-align:right">Phantasar Name:</td><td id="WIKI_FID_AAA_PHANNAME">Wh&icirc;zy</td></tr>
-	<tr valign=top><td style="text-align:right">Ras:</td><td id="WIKI_FID_AAB_RACE">Elf</td></tr>
-	<tr valign=top><td style="text-align:right">Geboorteplaats:</td><td id="WIKI_FID_AAC_PLACEBIRTH">De Tuin Van De Schepping</td></tr>
+	<tr valign=top><td style="text-align:right">Full Name:</td><td><span id="WIKI_FID_AAA_FULLNAME">Whizzy, Twaalfde Elf van de Eerste Generatie</span></td></tr>
+	<tr valign=top><td style="text-align:right">Phantasar Name:</td><td><span id="WIKI_FID_AAA_PHANNAME">Wh&icirc;zy</span></td></tr>
+	<tr valign=top><td style="text-align:right">Ras:</td><td><span id="WIKI_FID_AAB_RACE">Elf</span></td></tr>
+	<tr valign=top><td style="text-align:right">Geboorteplaats:</td><td><span id="WIKI_FID_AAC_PLACEBIRTH">De Tuin Van De Schepping</span></td></tr>
 </table></div>
 
 <h1>Whizzy, Twaalfde Elf van de Eerste Generatie</h1>
@@ -80,7 +80,25 @@ Whizzy is berucht om haar extreme arrogantie en het feit dat ze op alles en iede
 
 
 
-<br /><br /><br /><br /><small>Last updated on Saturday, September 21, 2024; 9:18:23 PM by Jeroen</small><br/><a href="WikiIndex_Phantasar_NL.html">Index</a>
+<br /><br /><br /><br /><small>Last updated on Saturday, September 21, 2024; 10:40:23 PM by Jeroen</small><br/><a href="WikiIndex_Phantasar_NL.html">Index</a>
+<script language="JavaScript">
+// AAC_GENDER
+
+let WIKI_AAC_GENDER = "F";
+// Sex
+{
+	let Sex = WIKI_AAC_GENDER.toUpperCase();
+	let Sex1 = Sex.slice(0, 1);
+	let Cnt = document.getElementById("WIKI_FID_AAB_RACE")
+	console.log(Cnt);
+	console.log("Rac: "+Cnt.innerHTML+"\n");	
+	Cnt.innerHTML+=" <img src=\"pic/Sex_"+Sex1+".png\" height=\"12pt\" style=\"border:0; float: right;\"/>";
+	console.log("Sex: "+Sex1+" -> "+Cnt.innerHTML+"\n");
+}
+
+
+</script>
+
   </div>
 </div>
 <div id="footer">
