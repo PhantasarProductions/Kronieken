@@ -31,9 +31,10 @@
 
 <div style="float:right;" width="20%"><table><tr><td colspan=2>Weniaria</td></tr>
 	<tr valign=top><td style="text-align:center" colspan=2><img src="https://i.imgur.com/PGVU8FW.png" Alt="Picture: Portrait" /></td></tr>
-	<tr valign=top><td style="text-align:right">Full Name:</td><td>Weniaria, dochter van Falcon</td></tr>
-	<tr valign=top><td style="text-align:right">Phantasar Name:</td><td>W&ecirc;ni&acirc;ri&acirc;, Fyl&acirc; d&acirc;r F&acirc;lk&ocirc;n</td></tr>
-	<tr valign=top><td style="text-align:right">Race:</td><td>Hybride Elf + mens (geboorte)<br />Godin (Elfenreligie) (later)</td></tr>
+	<tr valign=top><td style="text-align:right">Full Name:</td><td><span id="WIKI_FID_AAA_FULLNAME">Weniaria, dochter van Falcon</span></td></tr>
+	<tr valign=top><td style="text-align:right">Phantasar Name:</td><td><span id="WIKI_FID_AAA_PHANNAME">W&ecirc;ni&acirc;ri&acirc;, Fyl&acirc; d&acirc;r F&acirc;lk&ocirc;n</span></td></tr>
+	<tr valign=top><td style="text-align:right">Ras:</td><td><span id="WIKI_FID_AAB_RACE">Hybride Elf + mens (geboorte)<br />Godin (Elfenreligie) (later)</span></td></tr>
+	<tr valign=top><td style="text-align:right">Geboorteplaats:</td><td><span id="WIKI_FID_AAC_PLACEBIRTH">De bossen van Delisto</span></td></tr>
 </table></div>
 
 <h1>Weniaria, dochter van Falcon</h1>
@@ -66,13 +67,33 @@ Weniaria treedt actief op in de verhalen:</p>
 <ul>
 <li>Weniaria wordt vaak in de verhalen gesymboliseerd met de kleur groen. De priesters in haar orde dragen dan ook vooral groene groene gewaden als ze in functie zijn. De hartvormige edelsteen in het hangertje dat deze priesters dragen (waaronder ook Scyndi) is echter rood.</li>
 <li>Hoewel Weniaria zeker de eed van Hipocrates voor mij symboliseert, wordt "De Code Van de Genezer", die sterk op deze eed is gebaseerd onder de Elfen echter toegeschreven aan Whizzy. Hij wordt soms ook de "Code van Whizzy" of "Belofte van Whizzy" of "Eed van Whizzy" genoemd. Dit omdat Whizzy een Elf van de Eerste Generatie is met een uitzonderlijk genezende kracht. Zij heeft de medische wetenschap onder de Elfen praktisch uitgevonden en dus ook de bijbehorende code. Het zou nadat Whizzy deze code opstelde nog tientallen duizenden jaren duren voordat Weniaria geboren werd. De code naar Weniaria vernoemen zou dus uitermate onlogisch zijn.</li>
+<li>Hoewel Weniaria de kleindochter is van de Elfenkeizer is ze nooit officieel lid geweest van het keizerlijk huis, heeft ze ook nooit officieel de titel "prinses" gedragen en kon ze ook nooit aanspraak maken op de troon.</li>
 </ul>
 
 
 
 
 
-<br /><br /><br /><br /><small>Last updated on Sunday, September 8, 2024; 11:38:10 AM by Jeroen</small><br/><a href="WikiIndex_Phantasar_NL.html">Index</a>
+
+<br /><br /><br /><br /><small>Last updated on Saturday, September 28, 2024; 11:07:39 AM by Jeroen</small><br/><a href="WikiIndex_Phantasar_NL.html">Index</a>
+<script language="JavaScript">
+// AAC_GENDER
+
+let WIKI_AAC_GENDER = "F";
+// Sex
+{
+	let Sex = WIKI_AAC_GENDER.toUpperCase();
+	let Sex1 = Sex.slice(0, 1);
+	let Cnt = document.getElementById("WIKI_FID_AAB_RACE")
+	console.log(Cnt);
+	console.log("Rac: "+Cnt.innerHTML+"\n");	
+	Cnt.innerHTML+=" <img src=\"pic/Sex_"+Sex1+".png\" height=\"12pt\" style=\"border:0; float: right;\"/>";
+	console.log("Sex: "+Sex1+" -> "+Cnt.innerHTML+"\n");
+}
+
+
+</script>
+
   </div>
 </div>
 <div id="footer">
