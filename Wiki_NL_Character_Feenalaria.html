@@ -27,18 +27,22 @@
     </form>
   </div>
   <div id="content">
-	  <!--- Wiki: Phantasar; Page: Feenalaria; Langauge Dutch -->
-
-<div style="float:right;" width="20%"><table><tr><td colspan=2>Feenalaria</td></tr>
-	<tr valign=top><td style="text-align:center" colspan=2><img src="https://i.imgur.com/ryuErZw.png" Alt="Picture: Portrait" /></td></tr>
-	<tr valign=top><td style="text-align:right">Full Name:</td><td><span id="WIKI_FID_AAA_FULLNAME">Feenalaria, dochter van Vandar</span></td></tr>
-	<tr valign=top><td style="text-align:right">Phantasar Name:</td><td><span id="WIKI_FID_AAA_PHANNAME">Fyn&acirc;l&acirc;ry&acirc;, Fyl&acirc; d&acirc;r V&acirc;nd&acirc;r</span></td></tr>
-	<tr valign=top><td style="text-align:right">Ras:</td><td><span id="WIKI_FID_AAB_RACE">Mens (van geboorte)<br />Fee (later)</span></td></tr>
-	<tr valign=top><td style="text-align:right">Geboorteplaats:</td><td><span id="WIKI_FID_AAC_PLACEBIRTH">Dandleton, Kokonora</span></td></tr>
+	  <!-- Info Box -->
+<div width=25% style="float:right"><table class="WikiBox">
+	<tr><td><big>Feenalaria, dochter van Vandar</big></td></tr>
+	<tr><td align="center"><img src="https://i.imgur.com/ryuErZw.png" alt="Image" class="WikiImg" /></td></tr>
+	<tr><td class="WikiFieldKey">Full Name</td></tr>
+	<tr><td align="right" class="WikiFieldValue">Feenalaria, dochter van Vandar</td></tr>
+	<tr><td class="WikiFieldKey">Phantasar Name</td></tr>
+	<tr><td align="right" class="WikiFieldValue">Fyn&acirc;l&acirc;ry&acirc;, Fyl&acirc; d&acirc;r V&acirc;nd&acirc;r</td></tr>
+	<tr><td class="WikiFieldKey">Ras</td></tr>
+	<tr><td align="right" class="WikiFieldValue">Mens (van geboorte)<br />Fee (later)</td></tr>
+	<tr><td class="WikiFieldKey">Geboorteplaats</td></tr>
+	<tr><td align="right" class="WikiFieldValue">Dandleton, Kokonora</td></tr>
 </table></div>
 
+<!-- Content -->
 <h1>Feenalaria, dochter van Vandar</h1>
-
 Feenalaria (uitspraak: Fie-nah-lah-ria) is een menselijk vrouw geboren in Dandleton als dochter van Vandar en Terinka.
 <br/><br/>
 Feenalaria is opgegroeid in een maatschappij waarin vrouwen niet veel meer zijn als "gebruiksvoorwerpen" en haar feministische instelling wordt dan ook vooral als "opstandig" gezien.
@@ -66,26 +70,6 @@ function RevealKrandar() {  document.getElementById("Krandar").textContent="Dit 
 <li>Feenalaria is ondanks dat ze een Fee is, NIET begiftigd met de magische liefdesband magie. Ik heb dit laten terugkomen in het feit dat Feenalaria na de dood van Nostramantu een nieuwe relatie zou beginnen met Krandar op wie de "seksvloek" die Nostramantu ooit over zijn volk uitsprak een conflicterend werking heeft met de liefdesbandmagie (<span id="Krandar"><a href="javascript:RevealKrandar()">Spoiler</a></span>), was voor hem de behoefte aan een vrouw vergelijkbaar met die van een man van ieder ander volk. Hierdoor kon ik de twee ook samenbrengen, wat in enkele conceptverhalen ook is gebeurd.</li>
 <li id="Oma"><a href='javascript:RevealFeenaO();'>Spoiler</a></li>
 </ol>
-
-
-<br /><br /><br /><br /><small>Last updated on Saturday, September 21, 2024; 10:34:15 PM by Jeroen</small><br/><a href="WikiIndex_Phantasar_NL.html">Index</a>
-<script language="JavaScript">
-// AAC_GENDER
-
-let WIKI_AAC_GENDER = "F";
-// Sex
-{
-	let Sex = WIKI_AAC_GENDER.toUpperCase();
-	let Sex1 = Sex.slice(0, 1);
-	let Cnt = document.getElementById("WIKI_FID_AAB_RACE")
-	console.log(Cnt);
-	console.log("Rac: "+Cnt.innerHTML+"\n");	
-	Cnt.innerHTML+=" <img src=\"pic/Sex_"+Sex1+".png\" height=\"12pt\" style=\"border:0; float: right;\"/>";
-	console.log("Sex: "+Sex1+" -> "+Cnt.innerHTML+"\n");
-}
-
-
-</script>
 
   </div>
 </div>
