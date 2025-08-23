@@ -6,9 +6,6 @@
 ** Template: Dark Splinter
 **======================================*/
 
-/* This template has a few additions at the bottom done by Jeroen P. Broks
-   For some specific items of the Phantasar website
-*/
 
 /*------------------------------------------------------------*
 **  Global
@@ -298,19 +295,5 @@ span, em, strong, acronym, del, label, input, select, textarea, a { margin: 0 !i
 * html #footer p span { right: 30px; }
 
 
-/* Phantasar Wiki */
-.WikiImg {
-	border: 0;
-	width: 100%;
-	height: auto;
-}
-.WikiFieldKey {
-	color: #000000;
-}
-.WikiFieldValue {
-	color: #00bfff;
-}
-.WikiBox {
-	color: #0f0b00;
-}
+
 
